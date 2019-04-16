@@ -187,24 +187,20 @@
                       <div class="col-md-3"></div>
                       <div class="col-md-6">                      
                         <div class="comment-form">
-                            <form class="ajaxForm" id="about-form" action="https://formcarry.com/s/YwFG5EI0Wh3" method="POST" accept-charset="UTF-8" >
-                                    <div class="single-input"> 
-                                        <aria-label for="firstname" style="color:#000">Name</label>                                   
-                                        <input type="text" name="name" placeholder="Name" class="form-control" 
-                                        required/>
-                                        
+                            <form class="ajaxForm" id="event-list-form" action="https://formcarry.com/s/YwFG5EI0Wh3" method="POST" accept-charset="UTF-8" >
+                                    <div class="single-input">
+                                        <input type="text" name="name" placeholder="Name" class="form-control" required/>
+                                        <label for="name" style="color:#000" value="name"></label>
                                     </div>
                                     <div class="single-input">
-                                        <aria-label for="email" style="color:#000">Email</label>
                                         <input type="email" name="email" placeholder="Email" class="form-control" required/>
-                                        
-                                    </div>                              
+                                        <label for="email" style="color:#000" value="email"></label>
+                                    </div>                                
                                     <div class="single-input">
-                                        <aria-label for="message" style="color:#000">Message</label>
                                         <textarea name="message" rows="8" cols="80" placeholder="Message" required></textarea>
-                                        
+                                        <label for="message" style="color:#000" value="message"></label>
                                     </div>                                                    
-                                    <button id="submit_button" type="submit" class="quartet-button">Send</button>
+                                    <button id="submit_button" type="submit" class="quartet-button" value="submit">Send</button>
                             </form>
                         </div>
                 
