@@ -266,6 +266,7 @@ ul {
   z-index: 3;
   background: transparent;
   background-color: #FCB141;
+  color: #000;
 }
 
 .musica-button:before,
@@ -514,26 +515,11 @@ textarea {
 
 
 
-/*.home-page-header .menu-list ul.dropdown,
-.home-page-header .menu-list ul.dropdown li ul.dropdown {
-  background: transparent;
-}
-.home-page-header .menu-fixed-top .menu-list ul.dropdown,
-.home-page-header .menu-fixed-top .menu-list ul.dropdown li ul.dropdown {
-  background: #191919;
-}*/
-.menu-list ul.dropdown li a {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 13px;
-  letter-spacing: 1.5px;
-}
+
 .home-page-header .menu-list > li > a {
    padding: 28px 16px 31px 16px;
 }
-.menu-list ul.dropdown li a:hover {
-  color: #fff;
-}
+
 .logo-brand{
   margin-top:25px;
   display: inline-block;
@@ -1829,56 +1815,12 @@ textarea {
 /* -----------------------------------
 ** Blog
 -------------------------------------*/
-.blog-post {
-  position: relative;
-  text-align: center;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
 
-.blog-post h3 {
-  position: absolute;
-  width: 100%;
-  bottom: 45px;
-  font-weight: 700;
-  transition: .4s;
-  z-index: 2;
-}
 
-.blog-post .gradent-overlay {
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-}
 
-.blog-post .gradent-overlay:before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 150%;
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.01) 20%, black 100%);
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.01) 20%, black 100%);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 20%, black 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#82000000',GradientType=0 );
-  -webkit-transition: all .45s;
-  -moz-transition: all .45s;
-  -ms-transition: all .45s;
-  -o-transition: all .45s;
-  transition: all .45s;
-}
 
-.blog-post .post-date {
-  z-index: 2;
-}
 
-.blog-post:hover .gradent-overlay:before {
-  top: -50%;
-}
+
 
 .post-date {
   position: absolute;
@@ -1896,52 +1838,7 @@ textarea {
   display: block;
 }
 
-.blog-banner {
-  background: url("../images/blog/blog-banner.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.blog-detail-text {
-  border-bottom: 1px solid #2d2c31;
-  padding-bottom: 40px;
-}
-
-.blog-detail-text .blog-heading {
-  font-weight: 900;
-  margin-bottom: 31px;
-  font-size: 35px;
-}
-
-.blog-detail-text p {
-  font-weight: 300;
-  margin-bottom: 22px;
-}
-
-.blog-detail-text .social-icon {
-  padding-top: 28px;
-}
-
-.blog-detail-text .social-icon li {
-  padding: 8px 9px;
-}
-
-.blog-detail-text .social-icon li:last-child {
-  padding-right: 0;
-}
-
-.blog-detail-text .social-icon li:first-child {
-  padding-left: 0;
-}
-
-.blog-detail-text .social-icon a {
-  color: #cab3d0;
-}
-
-.blog-detail-text .social-icon a:hover {
-  color: #dd4b39;
-}
+.
 
 .meta-info {
   text-transform: uppercase;
@@ -1949,67 +1846,8 @@ textarea {
   padding-bottom: 15px;
 }
 
-.blog-tags {
-  padding-top: 24px;
-}
 
-.blog-tags li {
-  list-style: none;
-  display: inline-block;
-  padding: 3px 6px;
-}
 
-.blog-tags li:first-child {
-  padding-left: 0;
-}
-
-.blog-tags li:last-child {
-  padding-right: 0;
-}
-
-.blog-tags .musica-button-two {
-  min-width: 100px;
-  text-transform: uppercase;
-  border-width: 2px;
-  padding: 8px 15px;
-}
-
-.blgo-post-author, .single-comment {
-  border-bottom: 1px solid #2d2c31;
-  padding: 40px 0;
-}
-
-.blgo-post-author > div, .single-comment > div {
-  display: table;
-  width: 100%;
-}
-
-.blgo-post-author > div .image, .single-comment > div .image {
-  display: table-cell;
-  vertical-align: middle;
-  width: 90px;
-}
-
-.blgo-post-author > div .text, .single-comment > div .text {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 0 30px 0 50px;
-}
-
-.blgo-post-author > div .text h3, .single-comment > div .text h3 {
-  font-weight: 900;
-  font-size: 24px;
-  margin-bottom: 13px;
-  display: inline-block;
-  padding-right: 15px;
-}
-
-.blgo-post-author > div .text .date, .single-comment > div .text .date {
-  text-transform: uppercase;
-  margin-bottom: 13px;
-  white-space: nowrap;
-  display: inline-block;
-}
 
 .comment-box {
   border-bottom: 1px solid #2d2c31;
@@ -2060,9 +1898,7 @@ textarea {
   height: 400px;
   width: 100%;
 }
-.blog-detail > .image img{
-  width:100%;
-}
+
 .blog-qoute-post{
   position:relative;
 }
